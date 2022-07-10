@@ -1,6 +1,6 @@
 from tkinter import*
 root=Tk()
-
+root.title("Calculator :)")
 '''
 Defining Functions...
 '''
@@ -76,5 +76,9 @@ div_but.grid(row=5,column=2)
 spacer4.grid(row=6,column=0)
 l3.grid(row=7,column=0)
 result.grid(row=7,column=1)
+
+
+
+
 
 root.mainloop()
